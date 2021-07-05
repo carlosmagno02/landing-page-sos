@@ -436,15 +436,13 @@ footer {
     .desktop{
         display: none;
     }
-    header{
-        position: fixed;
-        top: 0;
-    }
+    
     .mobile{
         display: block !important;
-        margin: 0 2%;
+        margin: 0;
+        padding:1%
     }
-    
+
     .inicio{
         padding-top: 30%;
     }
@@ -468,5 +466,140 @@ footer {
 
     .text-inicio img{
         max-width: 300px;
+    }
+    .container-sobre {
+        flex-direction: column ;
+    }
+
+    .container-sobre{
+        height:1000px !important;
+    }
+
+    .container2{
+        flex-direction: column-reverse !important;
+    }
+
+    .second{
+        width: 90% !important;
+        margin: 0 auto
+    }
+
+    p.second{
+        width: 80% !important;
+    }
+
+    .simples{
+        flex-direction: column;
+    }
+    .simples:nth-of-type(1){
+        flex-direction: column-reverse;
+    }
+
+    .right{
+        width: 100%;
+        height: 600px;
+    }
+    .left{
+        width: 100%;
+        height: 400px;
+    }
+    .text-sobre{
+        width: 90%;
+        margin: auto;
+    }
+
+    .text-sobre p{
+        width: 90%;
+    }
+
+
+    .text-sobre h2,.text-sobre p{
+        color:#330633 !important
+    }
+
+    .text-sobre h2{
+        font-size:36px;
+    }
+
+    .imagem-sobre img{
+        width: 100%;
+    }
+
+    .text-baixar a img{
+        width: 60%;
+    }
+    .contato form button {
+        width: 100%;
+    }
+    .contato-tel {
+        display: flex;
+        flex-direction: column;
+        font-size: 18px;
+        text-align: center;
+    }
+    .container-contato h2 {
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 36px;
+        color: #868686;
+    }
+    .doe{
+        height:50vh;
+    }
+
+    .image-doe{
+        flex-direction: row;
+    }
+    .container-donation{
+        flex-direction: column;
+        justify-content:space-around;
+    }
+    .image-doe{
+        height:10%;
+        align-items: center
+    }
+    .image-doe a{
+        display:flex;
+        height:34px;
+        align-items: center;
+        padding:0 20px;
+    }
+
+    .text-ajude{
+        width: 62%;
+        margin:0 auto;
+        font-size: 18px;
+    }
+
+    .imagem-baixar img {
+        width: 75%;
+    }
+    .container-sobre{
+        height:100px
+    }
+
+    .container-baixar{
+        flex-direction: column-reverse
+    }
+    .text-baixar {
+        width: 80%;
+        margin:70px auto;
+    }
+
+    .text-baixar a{
+        width: 100%;
+    }
+
+    .text-baixar h2{
+        width: 100%;
+        font-size:36px;
+        margin:auto;
+    }
+
+    .reverse{
+        display: flex;
+        flex-direction: column-reverse
     }
 }
