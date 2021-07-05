@@ -9,13 +9,14 @@ $(function(){
     })
 
     $('nav.mobile').on('click', function(){
+        // $('nav.mobile').find('ul').slideToggle
         var listaMenu = $('nav.mobile ul')
-
         if(listaMenu.is(":hidden") == true){
-            var botao =  document.getElementsByClassName("botao-menu-mobile")
+            var icone = $('.botao-menu-mobile i')
+            icone.removeClass('fa-bars')
+            icone.addClass('fa-times')
             listaMenu.slideToggle()
         }else{
-            
             var icone = $('.botao-menu-mobile i')
             icone.addClass('fa-bars')
             icone.removeClass('fa-times')

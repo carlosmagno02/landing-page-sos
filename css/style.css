@@ -507,9 +507,6 @@ footer {
     }
     .container-sobre {
         flex-direction: column ;
-    }
-
-    .container-sobre{
         height:1000px !important;
     }
 
