@@ -438,9 +438,47 @@ footer {
     }
     
     .mobile{
-        display: block !important;
-        margin: 0;
-        padding:1%
+        display: flex !important;
+        justify-content: space-between;
+    }
+
+    .botao-menu-mobile{
+        padding: 0 35px;
+        font-size: 30px;
+        cursor: pointer;
+        color: white;
+    }
+
+    .mobile ul{
+        top: 100px;
+        z-index: 3;
+        position: absolute;
+        right: 0;
+        width: 100%;
+        display: none;
+        text-align: center;
+        /* margin-right: 10px; */
+    }
+
+    .nav-bar ul{
+        margin-left: 0;
+    }
+
+    .mobile li{
+        width: 100%;
+        border:1px solid white;
+        display: block;
+        background: white;
+        font-size: 15px;
+        padding: 16px 0;
+        border: 1px;
+        margin:0;
+    }
+
+    .mobile li a{
+        display: block;
+        color: #444;
+        text-decoration: none;
     }
 
     .inicio{
@@ -505,7 +543,7 @@ footer {
     }
     .text-sobre{
         width: 90%;
-        margin: auto;
+        margin: 0 auto;
     }
 
     .text-sobre p{
@@ -565,6 +603,8 @@ footer {
         height:34px;
         align-items: center;
         padding:0 20px;
+        line-height: 34px;
+        margin-left: 20px;
     }
 
     .text-ajude{
